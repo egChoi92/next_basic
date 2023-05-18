@@ -2,9 +2,6 @@
 
 import { createContext, useContext, useMemo, useState } from "react";
 
-
-
-
 const CounterValueContext = createContext(0);
 const CounterActionContext = createContext({});
 

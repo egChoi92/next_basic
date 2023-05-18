@@ -4,6 +4,7 @@ import Example3 from './example3';
 import Example4 from './example4';
 import Example5 from './example5';
 import Example6 from './example6';
+import Example7 from './example7';
 
 export default function Context({params}: {params: {slug: string}}) {
 
@@ -25,6 +26,9 @@ export default function Context({params}: {params: {slug: string}}) {
             break;
         case "6":
             return <Example6 />
+            break;
+        case "7":
+            return <Example7 />
             break;
         default:
             break;
